@@ -17,32 +17,32 @@
   color: white;
 }
 
-.landing-page-headings {
+.landing-page-content {
   display: flex;
   flex-direction: column;
   justify-content: left;
   font-family: 'Montserrat', sans-serif;
 }
 
-.landing-page-headings h1 {
+.landing-page-content h1 {
   font-size: 80px;
   margin-bottom: 15px;
   font-weight: 400;
 }
 
-.landing-page-headings h2 {
+.landing-page-content h2 {
   font-size: 60px;
   font-weight: 400;
   margin-bottom: 60px;
 }
 
 .landing-page-name {
-  font-weight: 900;
+  font-weight: 800;
   color: red;
 }
 
 .landing-page-city {
-  font-weight: 900;
+  font-weight: 800;
   color: red;
 }
 
@@ -52,4 +52,32 @@
   height: 5vh;
   width: 15vw;
 }
+
+.landing-page-icons a img{
+  transition: all .3s ease-in-out; 
+}
+
+
+.landing-page-icons a img:hover {
+  transform: scale(1.3);
+}
+
+.landing-page-link {
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  margin-top: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  padding: 13px;
+  transition: all .3s ease-in-out; 
+  border-bottom: 5px solid red;
+}
+
+.landing-page-link:hover {
+  transform: scale(1.2);
+}
+
+/*  */
 

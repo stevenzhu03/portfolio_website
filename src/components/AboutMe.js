@@ -3,8 +3,8 @@ import React from 'react';
 const AboutMe = props => {
 
     return (
-        <div>
-            Hello
+        <div className="about-me-page">
+            About Me Page
         </div>
     )
     
