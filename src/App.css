@@ -4,10 +4,44 @@
   box-sizing: border-box;
 }
 
+/* Landing Page Styling */
+
 .landing-page {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   width: 100vw;
   background-color: black;
+  color: white;
+}
+
+.landing-page-headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landing-page-headings h1 {
+  font-size: 80px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.landing-page-headings h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.landing-page-name {
+  font-weight: 900;
+  color: red;
+}
+
+.landing-page-city {
+  font-weight: 900;
+  color: red;
 }
 
