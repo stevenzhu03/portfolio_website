@@ -81,3 +81,9 @@
 
 /*  */
 
+.about-me-page {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  background-color: #e8eddf;
+}
