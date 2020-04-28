@@ -26,7 +26,9 @@ const LandingPage = (props) => {
             </a>
         </div>
       </div>
-        <Link to="/about_me" className="landing-page-link">About Me</Link>
+
+
+        <Link to="/about_me#about_me" className="landing-page-link">About Me</Link>
 
     </div>
   );
