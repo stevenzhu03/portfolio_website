@@ -79,11 +79,40 @@
   transform: scale(1.2);
 }
 
-/*  */
+/* About Me Page */
 
 .about-me-page {
   display: flex;
   height: 90vh;
   width: 100vw;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #e8eddf;
+}
+
+.about-me-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-right: 2px solid lightgray;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px;
+  width: 60vw;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.about-me-text h1 {
+  font-size: 50px;
+}
+
+.about-me-text p {
+  font-size: 25px;
 }
