@@ -68,15 +68,14 @@
   color: red;
   margin-top: 80px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 800;
   padding: 13px;
-  transition: all .3s ease-in-out; 
-  border-bottom: 5px solid red;
+
 }
 
 .landing-page-link:hover {
-  transform: scale(1.2);
+  background-position: 0 100%;
 }
 
 /* About Me Page */
@@ -115,4 +114,23 @@
 
 .about-me-text p {
   font-size: 25px;
+}
+
+.about-me-languages-row {
+  display: flex;
+  width: 50vw;
+  margin: 0 60px 0 60px;
+  justify-content: space-between;
+}
+
+.skill-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.skill-label img {
+  margin-right: 20px;
 }

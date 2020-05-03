@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "@material-ui/core/Avatar";
+import SkillIcon from "./SkillIcon"
 
 const AboutMe = (props) => {
   return (
@@ -34,10 +35,19 @@ const AboutMe = (props) => {
         </p>
 
         <h1>Technical Skills</h1>
-        <div className="about-me-languages">
-            <img src ={require("../assets/javascript-plain.svg")} height="50px" width="50px" alt="javascript" />
-            <span>Javascript</span>
+        <div className="about-me-languages-row">
+            <SkillIcon image="javascript-plain.svg" label="Javascript"/>
+            <SkillIcon image="react-original.svg" label="React"/>
+            <SkillIcon image="ruby-plain.svg" label="Ruby"/>
+            <SkillIcon image="rails-plain.svg" label="Ruby on Rails"/>
         </div>
+
+        <div className="about-me-languages-row">
+            <SkillIcon image="nodejs-original.svg" label="NodeJS"/>
+            <SkillIcon image="python-original.svg" label="Python"/>
+            <SkillIcon image="postgresql-original.svg" label="PostgresSQL"/>
+        </div>
+
       </div>
     </div>
   );
