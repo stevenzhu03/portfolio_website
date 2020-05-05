@@ -110,22 +110,24 @@
 
 .about-me-text h1 {
   font-size: 50px;
+  margin-bottom: 40px;
 }
 
 .about-me-text p {
   font-size: 25px;
+  margin-bottom: 40px;
 }
 
 .about-me-languages-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
   width: 50vw;
-  margin: 0 60px 0 60px;
-  justify-content: space-between;
+  margin: 0 60px 40px 60px;
 }
 
 .skill-label {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-weight: 700;
   font-size: 20px;
@@ -133,4 +135,12 @@
 
 .skill-label img {
   margin-right: 20px;
+}
+
+/* Projects Page */
+
+.projects {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
 }

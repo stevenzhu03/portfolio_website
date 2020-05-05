@@ -1,10 +1,16 @@
 import React from 'react';
+import ProjectCard from './ProjectCard'
 
 const Projects = props => {
 
     return (
-        <div>
-            Projects Page
+        <div className="projects">
+            <h1>Projects</h1>
+
+            <div className="project-cards">
+                <ProjectCard/>
+                
+            </div>
         </div>
     )
     
