@@ -9,7 +9,8 @@ const ProjectCard = props => {
             <p>Description</p>
 
             <div className="project-card-icons">
-                
+                <img alt="github"/>
+                <img alt="live-version"/>
             </div>
         </div>
     )
